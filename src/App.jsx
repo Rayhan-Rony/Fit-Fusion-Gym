@@ -9,20 +9,20 @@ function App() {
   const PricingOptionsPromise = fetch("pricing.json").then((res) => res.json());
   return (
     <>
-      <header className="bg-[url(https://i.ibb.co/4ZhHyp1c/2.png)] bg-top-left h-screen">
+      <header className="bg-[url(https://i.ibb.co/4ZhHyp1c/2.png)]  lg:bg-top-left bg-center  h-screen">
         <Nav></Nav>
         <Banner></Banner>
 
         {/* <NavDaisy></NavDaisy> */}
       </header>
       <main>
-        <Suspense
+        {/* <Suspense
           fallback={<span className="loading loading-bars loading-sm"></span>}
         >
           <PricingOptions
             PricingOptionsPromise={PricingOptionsPromise}
           ></PricingOptions>
-        </Suspense>
+        </Suspense> */}
       </main>
     </>
   );

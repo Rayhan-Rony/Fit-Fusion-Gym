@@ -47,12 +47,14 @@ const Nav = () => {
   const links = navItems.map((item) => <Link key={item.id} item={item}></Link>);
   return (
     <nav className="flex justify-between max-w-11/12 mx-auto pt-5 items-center">
-      <div onClick={() => setOpen(!open)} className="flex gap-3">
-        {open ? <X className="md:hidden" /> : <Menu className="md:hidden" />}
-        <h1 className="text-4xl font-bold">FitFusion Gym</h1>
+      <div onClick={() => setOpen(!open)} className="flex gap-3 items-center">
+        {open ? <X className="md:hidden " /> : <Menu className="md:hidden" />}
+        <h1 className="lg:text-4xl md:text-3xl text-2xl font-bold">
+          FitFusion Gym
+        </h1>
         <ul
-          className={`md:hidden absolute bg-amber-300 text-black duration-1000  ${
-            open ? "top-8" : "-top-80"
+          className={`md:hidden absolute  duration-1000  ${
+            open ? "top-14" : "-top-80"
           }`}
         >
           {links}
@@ -61,7 +63,7 @@ const Nav = () => {
 
       <ul className="md:flex hidden gap-6">{links}</ul>
       <div className=" ">
-        <button className=" flex gap-1 items-center text-xl font-medium text-gray-400 hover:text-white ">
+        <button className=" flex gap-1 items-center lg:text-xl md:text-xl text-base font-medium text-gray-400 hover:text-white ">
           Sign In <LogIn className="" />
         </button>
       </div>
