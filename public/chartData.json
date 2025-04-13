@@ -1,0 +1,14 @@
+[
+    { "month": "January", "attended": 100, "successful": 85, "successRate": 85.0 },
+    { "month": "February", "attended": 110, "successful": 58, "successRate": 52.7 },
+    { "month": "March", "attended": 120, "successful": 22, "successRate": 18.3 },
+    { "month": "April", "attended": 130, "successful": 125, "successRate": 96.2 },
+    { "month": "May", "attended": 140, "successful": 98, "successRate": 70.0 },
+    { "month": "June", "attended": 150, "successful": 80, "successRate": 53.3 },
+    { "month": "July", "attended": 160, "successful": 92, "successRate": 57.5 },
+    { "month": "August", "attended": 155, "successful": 99, "successRate": 63.9 },
+    { "month": "September", "attended": 165, "successful": 135, "successRate": 81.8 },
+    { "month": "October", "attended": 170, "successful": 78, "successRate": 45.9 },
+    { "month": "November", "attended": 180, "successful": 60, "successRate": 33.3 },
+    { "month": "December", "attended": 190, "successful": 165, "successRate": 86.8 }
+  ]
