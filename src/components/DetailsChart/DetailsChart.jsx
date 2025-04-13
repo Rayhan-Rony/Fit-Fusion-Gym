@@ -15,7 +15,7 @@ const DetailsChart = ({ chartData }) => {
   const data = cData.data;
   //   console.log(data);
   return (
-    <div className="mt-32 max-w-11/12 mx-auto">
+    <div className="mt-32 max-w-11/12 mx-auto mb-32">
       <h2 className="lg:text-6xl md:text-5xl text-4xl text-center mb-20">
         Our Progress Last-Year
       </h2>

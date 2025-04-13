@@ -6,6 +6,7 @@ import PricingOptions from "./components/PricingOptions/PricingOptions";
 import Banner from "./components/Banner/Banner";
 import DetailsChart from "./components/DetailsChart/DetailsChart";
 import axios from "axios";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const PricingOptionsPromise = fetch("pricing.json").then((res) => res.json());
@@ -32,6 +33,7 @@ function App() {
           <DetailsChart chartData={chartData}></DetailsChart>
         </Suspense>
       </main>
+      <Footer></Footer>
     </>
   );
 }
