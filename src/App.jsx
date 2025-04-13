@@ -16,13 +16,13 @@ function App() {
         {/* <NavDaisy></NavDaisy> */}
       </header>
       <main>
-        {/* <Suspense
+        <Suspense
           fallback={<span className="loading loading-bars loading-sm"></span>}
         >
           <PricingOptions
             PricingOptionsPromise={PricingOptionsPromise}
           ></PricingOptions>
-        </Suspense> */}
+        </Suspense>
       </main>
     </>
   );

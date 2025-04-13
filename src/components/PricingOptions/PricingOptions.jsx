@@ -8,9 +8,11 @@ const PricingOptions = ({ PricingOptionsPromise }) => {
   //   console.log(pricePlans);
 
   return (
-    <div>
-      <div>
-        <h1 className="text-7xl">Get Our Membership</h1>
+    <div className="max-w-11/12 mx-auto">
+      <div className="lg:mt-28 md:mt-24 mt-12">
+        <h1 className="lg:text-7xl md:text-6xl text-4xl lg:text-center mb-12">
+          Get Our Membership
+        </h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 ">
           {/* {pricePlans.map((pricePlan) => (
             <PriceCard key={pricePlan.id} pricePlan={pricePlan}></PriceCard>
